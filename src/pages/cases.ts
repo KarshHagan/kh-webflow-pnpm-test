@@ -4,7 +4,6 @@ export const cases = () => {
   // ---------------
   // Page Globals
   // ---------------
-  console.log('cases');
 
   // Fixed Header
   const headerElement = document.querySelector('#fixedHeader') as HTMLElement;

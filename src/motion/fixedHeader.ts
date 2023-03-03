@@ -8,10 +8,10 @@ export const fixedHeader = (section: HTMLElement) => {
   const scrollTimeline = gsap.timeline({
     scrollTrigger: {
       trigger: '#' + scrollSection,
-      start: '50% top',
+      start: 'bottom top',
       end: 'bottom bottom',
       toggleActions: 'play none none reverse',
-      markers: true,
+      // markers: true,
     },
   });
   scrollTimeline.to(section, { display: 'none' });

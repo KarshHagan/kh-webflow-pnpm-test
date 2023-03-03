@@ -1,3 +1,5 @@
 export const home = () => {
-  console.log('home');
+  // ---------------
+  // Page Globals
+  // ---------------
 };
