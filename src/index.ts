@@ -1,4 +1,4 @@
-import { menu } from '$components/menu';
+import { menu } from '$components/nav';
 import { about } from '$pages/about';
 import { caseTemplate } from '$pages/caseTemplate';
 import { cases } from '$pages/cases';

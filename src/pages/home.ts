@@ -1,5 +1,4 @@
-import { fixedHeader } from '$motion/fixedHeader';
-import { heroScroll, heroHide } from '$motion/heroScroll';
+import { heroScroll, heroHide } from '$motion/homeHeroScroll';
 
 export const home = () => {
   // ---------------
