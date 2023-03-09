@@ -1,7 +1,8 @@
 import { gsap } from 'gsap';
-import { SplitText } from 'gsap/SplitText';
 
-gsap.registerPlugin(SplitText);
+// import { SplitText } from 'gsap/SplitText';
+
+// gsap.registerPlugin(SplitText);
 
 const body = document.body as HTMLElement;
 const navMenu = document.querySelector('#navMenu');
