@@ -9,7 +9,7 @@ import { newsTemplate } from '$pages/newsTemplate';
 window.Webflow ||= [];
 window.Webflow.push(() => {
   console.log('/// kh ///');
-  console.log('/// test ///');
+  // console.log('/// test ///');
 
   // ---------------
   // Site Globals
