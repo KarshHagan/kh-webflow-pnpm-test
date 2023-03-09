@@ -1,4 +1,7 @@
 import { gsap } from 'gsap';
+import { SplitText } from 'gsap/SplitText';
+
+gsap.registerPlugin(SplitText);
 
 const body = document.body as HTMLElement;
 const navMenu = document.querySelector('#navMenu');
@@ -126,6 +129,10 @@ export const menuMotionClose = () => {
   animation.to(navSpan, { duration: 0.4, width: '0%', ease: 'expo.inOut' }, '<');
 
   animation.to(navMenu, { duration: 0.6, width: '0%', ease: 'power3.inOut' }, '-=0.6');
+
+  const navButtonAnimation = gsap.timeline();
+  const splitOpen = new SplitText('#menuText', { type: 'words,chars' });
+  console.log('split open', splitOpen);
 
   return animation;
 };
