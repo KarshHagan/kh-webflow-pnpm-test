@@ -25,4 +25,4 @@ typings/
 .env
 
 #npmrc files
-#.npmrc
+.npmrc
